@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2021", // JavaScript version to output
+    "module": "CommonJS", // Module system
+    "outDir": "./dist", // Output directory
+    "rootDir": "./src", // Input files directory
+    "strict": true, // Enable strict type-checking
+    "esModuleInterop": true, // Interop with ES6 modules
+    "skipLibCheck": true, // Skip type checks for libraries
+    "forceConsistentCasingInFileNames": true,
+    "typeRoots": ["./src/types", "./node_modules/@types"],
+    "types": ["express", "node"]
+  },
+  "include": ["src/**/*.ts"], // Include all TypeScript files
+  "exclude": ["node_modules"] // Exclude node_modules
+}
